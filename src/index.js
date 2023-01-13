@@ -3,11 +3,41 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {Routes, Route, Link, BrowserRouter as Router } from 'react-router-dom';
+
+import Registration from './pages/RegistrationPage';
+import Login from './pages/LoginPage';
+import ContactUS from './pages/ContactUS';
+import Books from './pages/Books';
+import About from './pages/About';
+import NotFound from './pages/NotFound';
+import Header from './pages/Header';
+
+const routing = (
+
+  <Router>
+  <Header/>
+    
+  
+    <Routes>
+      <Route path="/" element={ <App/>} />
+      <Route path="/Login" element={ <Login/>} />
+      <Route path="/Registration" element={ <Registration/>} />
+      <Route path="/ContactUS" element={ <ContactUS/>} />
+      <Route path="/About" element={ <About/>} />
+      <Route path="/Books" element={ <Books/>} />
+      <Route path="*" element={ <NotFound/>} />
+      <Route path="/Registration/:id" element={ <Registration/>} />
+    </Routes>
+    <h1>==Footer==</h1>
+  </Router>
+
+);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {routing}
   </React.StrictMode>
 );
 

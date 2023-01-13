@@ -1,0 +1,59 @@
+.mainHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #cd7f32;
+    color: white;
+    animation-name: appear;
+    animation-duration: 2s;
+  }
+  
+  .leftNav{
+    display: flex;
+    align-items: center;
+  }
+  
+  .leftNav img{
+    padding-left: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .leftNav span{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 12px;
+  }
+  
+  .leftNav span:hover{
+    color: #133043;
+  }
+  
+  .rightNav{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+  }
+  
+  .rightNav li{
+    padding: 8px;
+    font-size: 22px;
+  }
+  .rightNav li:hover{
+    color: #0f2839;
+  }
+  
+  /* Animations */
+  @keyframes appear {
+    0%   {opacity: 0%;}
+    100% {opacity: 100%;}
+  }
+
+  .link{
+    text-decoration: none;
+    color: white;
+  }
+
+  .link:hover{
+    color: #133043
+  }
