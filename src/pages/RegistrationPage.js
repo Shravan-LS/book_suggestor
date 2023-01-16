@@ -16,8 +16,8 @@ function Registration() {
               <input type="text" className={styles.input} placeholder="Enter Name" ></input>
               <br></br>
 
-              Male <input type="radio" name="gender"></input> 
-              Female <input type="radio" name="gender"></input>
+              <span className={styles.gender}>Male  </span> <input type="radio" name="gender"></input> 
+               <span className={styles.gender}>| Female</span> <input type="radio" name="gender"></input>
               <br></br>
               
               <input type="email" className={styles.input} placeholder="Enter Email Id" ></input>
@@ -32,10 +32,12 @@ function Registration() {
               <input type="contact" className={styles.input} placeholder="Contact Number" ></input>
               <br></br>
 
-              <input type="checkbox"></input>I agree the <a href="#">Terms and Conditions</a>
+              <input type="checkbox"></input>
+              
+              <a href="#" className={styles.link}> I agree the Terms and Conditions</a>
               <br></br>
 
-              <input type="submit" value="REGISTER"></input>
+              <input type="submit" className={styles.submit} value="REGISTER"></input>
               </div>
 
             </div>
