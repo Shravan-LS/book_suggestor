@@ -1,0 +1,58 @@
+
+.listStyle{
+    list-style-type: none;
+}
+
+.listLink{
+    text-decoration: none;
+    color: white;
+}
+
+.listItem{
+    padding:6px;
+}
+
+.listLink:hover{
+    color: #cd7f32;
+}
+
+.imgEdit{
+    width:100px;
+}
+
+.footerImg{
+    display: flex;
+    align-items: center;
+    color: aquamarine;
+    margin: 50px;
+}
+
+.footerList{
+    margin: 60px;
+}
+
+.dimensions{
+    height:50px;
+    width: 100px;
+}
+
+
+#footerMedia{
+    margin:100px;
+    padding: 30px;
+}
+  .icon{
+    color: aquamarine;
+  }
+  
+  .icon:hover{
+    color: #cd7f32;
+  }
+  
+  .mainFooter{
+    display: flex;
+  }
+  
+  footer{
+    background-color: #133043;
+  }

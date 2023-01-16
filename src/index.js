@@ -12,6 +12,7 @@ import Books from './pages/Books';
 import About from './pages/About';
 import NotFound from './pages/NotFound';
 import Header from './pages/Header';
+import Footer from './pages/Footer'
 
 const routing = (
 
@@ -29,7 +30,8 @@ const routing = (
       <Route path="*" element={ <NotFound/>} />
       <Route path="/Registration/:id" element={ <Registration/>} />
     </Routes>
-    <h1>==Footer==</h1>
+    
+    <Footer/>
   </Router>
 
 );

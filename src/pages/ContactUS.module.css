@@ -1,0 +1,56 @@
+.backImg{
+    background-image: url("https://www.mayflower.com/wp-content/uploads/2019/10/Books-1085770318.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.formDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pMargin{
+    margin: 0px;
+    color: white;
+}
+
+.formEdit{
+    /* border: 2px solid black; */
+    background-color: rgba(19,48,67,0.8);
+    width:500px;
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.formLabel{
+    background-color: rgb(107, 105, 105);
+    color: black;
+}
+
+.mediaBanner{
+    background-color: rgba(205, 127, 50);
+    text-align: center;
+    padding: 3px;
+}
+
+.mediaFont{
+    font-size: 30px;
+}
+
+.mediadimensions{
+    height:100px;
+    width: 100px;
+}
+
+.mediaLogos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.singLogo{
+    margin:20px;
+}

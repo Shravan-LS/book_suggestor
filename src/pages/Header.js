@@ -13,10 +13,10 @@ return(
             <ul className='rightNav'>
             <li><Link className="link" to="/">Home</Link></li>
               <li><Link className="link" to="/Login">Login</Link></li>
-              <li><Link className="link" to="/Registration">Registration</Link> </li>
-              <li>Contact</li>
-              <li>About</li>
-              <li>Books</li>
+              <li><Link className="link" to="/Registration">Registration</Link></li>
+              <li><Link className="link" to="/ContactUS">ContactUS</Link></li>
+              <li><Link className="link" to="/About">About</Link></li>
+              <li><Link className="link" to="/Books">Books</Link> </li>
             </ul>
           </div>
         </div>
